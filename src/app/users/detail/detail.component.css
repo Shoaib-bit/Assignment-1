@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+.title{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.text{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.option{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+.option input{
+    width: 190px;
+    border: 1px solid gray;
+    background: none;
+    padding-left: 10px;
+    outline: none;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}

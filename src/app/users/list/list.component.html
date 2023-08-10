@@ -1,0 +1,16 @@
+<div class="container">
+    <h1 class="title">{{listTitle}}</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+            <tr *ngFor ="let temp of users,let i = index">
+                <td>{{temp.name}}</td>
+                <td><button routerLink="detail">Detail</button></td>
+            </tr>
+    </table>
+    
+</div>

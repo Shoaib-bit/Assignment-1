@@ -1,0 +1,13 @@
+<div class="container">
+    <h1 class="title">{{userTitle}}</h1>
+    <div class="option">
+        <input type="text" placeholder="Enter Div Height"  [(ngModel)] = "height" >
+        <input type="text" placeholder="Enter Font Size" [(ngModel)] = "font">
+    </div>
+    <div class="text" [style.height.px]="height" [style.fontSize.px]="font">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Similique nihil cumque dolore quae, vel alias?
+    </div>
+    <button class="btn" routerLink="">User Lish</button>
+</div>
+
